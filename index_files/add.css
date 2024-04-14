@@ -1,0 +1,14 @@
+.top-alert {
+    margin-bottom: 30px;
+}
+a.mobile {
+    display: none;
+}
+@media (max-width: 767.98px) {
+    a.desktop {
+        display: none;
+    }
+    a.mobile {
+        display: inline;
+    }
+}
